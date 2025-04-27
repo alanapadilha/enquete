@@ -11,15 +11,26 @@ input {
     background-color: #270E2B;
     margin: auto;
 
-    margin-top: 40px;
-    width: 50%;
+    margin-top: 50px;
+    width: 40%;
     padding: 1.2rem;
 
-    border-radius: 5px;
+    border-radius: 10px;
 
     color: #FFFF;
 
     text-align: center;
+}
+
+.header-title {
+    color: #FFCE23;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+.header-subtitle {
+    padding: 0.2rem;
 }
 
 .container {
@@ -28,6 +39,7 @@ input {
     padding: 1.2rem;
     width: 90%;
     margin: auto;
+    margin-top: 40px;
 
 }
 
@@ -57,5 +69,7 @@ input {
 
 .footer {
     text-align: center;
-    padding: 0.5rem;
+    margin-top: 20px;
+
+    font-size: 12px;
 }
