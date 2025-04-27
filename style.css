@@ -36,11 +36,17 @@ input {
 .container {
     background-color: #621E6F;
 
-    padding: 1.2rem;
-    width: 90%;
+    padding: 0.9rem;
+    width: 92%;
     margin: auto;
     margin-top: 40px;
 
+    border-radius: 10px;
+}
+
+.container-title {
+    font-size: 25px;
+    font-weight: 400;
 }
 
 .form {
