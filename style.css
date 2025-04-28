@@ -100,14 +100,16 @@ button:hover{
     background: linear-gradient(180deg, #3F61EF 0%, #65C7F7 100%);    flex-direction: column;
     display: flex;
     align-items: center;
-    padding: 0.9rem;
+    justify-content: space-around;
+    padding: 1rem;
     border-radius: 10px;
-    width: 120px;
-
+    width: 125px;
+    
     border: #2A34C4 10px;
     border-style: solid;
 
     font-size: 20px;
+    text-align: center;
 }
 
 .poll object {
@@ -122,3 +124,67 @@ button:hover{
     font-size: 12px;
 }
 
+@media (max-width: 1700px) {
+    .header {
+        width: 90%;
+        font-size: 14;
+        padding: 0.5rem;
+        margin-top: 20px;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .container-title{
+        font-size: 20px;
+    }
+
+    .column {
+        align-items: center;
+    }
+
+    .poll {
+        width: 40;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    input {
+        width: 90%;
+    }
+}
+
+@media (max-width: 620px) {
+    .header {
+        width: 70%;
+        font-size: 14;
+        padding: 0.5rem;
+        margin-top: 20px;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .container-title{
+        font-size: 14px;
+    }
+
+    .column {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .poll {
+        width: 40;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    input {
+        width: 90%;
+    }
+}
