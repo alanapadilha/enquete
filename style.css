@@ -13,6 +13,11 @@ input {
     margin: 10px;
 }
 
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #491753;
+}
+
 button {
     margin-top: 0.5rem;
  
@@ -30,8 +35,12 @@ button {
      cursor: pointer;
 }
 
+button:hover{
+    background-color: #2B1030;
+}
+
 .header {
-    background-color: #270E2B;
+    background: linear-gradient(180deg, #270E2B 0%, #621E6E 100%);
     margin: auto;
 
     margin-top: 50px;
@@ -58,7 +67,7 @@ button {
 }
 
 .container {
-    background-color: #621E6F;
+    background: linear-gradient(180deg, #621E6F 0%, #1E0C21 100%);
 
     padding: 0.9rem;
     width: 92%;
@@ -88,8 +97,7 @@ button {
 }
 
 .poll {
-    background-color: #3F61EF;
-    flex-direction: column;
+    background: linear-gradient(180deg, #3F61EF 0%, #65C7F7 100%);    flex-direction: column;
     display: flex;
     align-items: center;
     padding: 0.9rem;
